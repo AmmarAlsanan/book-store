@@ -1,10 +1,9 @@
-import {AppHeader as Header} from './headerStyle'
+import { AppHeader as Header } from './headerStyle';
 
 export const AppHeader = () => {
-    return (
-        <>
-            <Header title='Bookies' />
-            </>
-
-    )
-}
+  return (
+    <>
+      <Header title="Bookies" />
+    </>
+  );
+};

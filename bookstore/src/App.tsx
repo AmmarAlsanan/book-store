@@ -1,13 +1,11 @@
 
-import { AppLayout } from './ui/component/layout/appLayout';
+import { AppLayout } from './ui';
 
-export const  App = () => {
-  return (
-    <>
-      <AppLayout />
-      
-      </>
-  );
-}
+export const App = () => (
+  <>
+    <AppLayout />
+  </>
+);
+
 
 
